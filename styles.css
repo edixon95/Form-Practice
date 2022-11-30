@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+}
+
+input, textarea {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(199, 196, 196);
+    border-radius: 5px;
+    border: 2px black solid;
+}
+
+h1 {
+    font-weight: bolder;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+form {
+    background-color: rgb(100, 150, 160);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    border: 2px black solid;
+}
+
+input[type="submit"] {
+    margin-bottom: 5px;
+}
+
+table {
+    margin: auto;
+    font-size: large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 25%;
+    border: 2px black solid;
+}
+
+th, td {
+    border: 2px black solid;
+}
+
+td:nth-child(odd), th:nth-child(odd) {
+    background-color: rgb(100, 150, 160);
+}

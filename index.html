@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Practice Form</title>
+</head>
+<body>
+    <h1>Tell me your secret</h1>
+    <form action="POST" method="get">
+        <div>
+            <label for="first-name">First Name
+                <br />
+                <input required placeholder="Your first name" type="text">
+            </label>
+        </div>
+        <br />
+        <div>
+            <label for="last-name">Surname
+                <br />
+                <input placeholder="Your second name" type="text">
+            </label>
+        </div>
+        <br />
+        <div>
+            <label for="email">Email</label>
+            <br />
+            <input required placeholder="youremail@mail.com" type="email">
+        </div>
+        <br />
+        <div>
+            <label for="message">Your secret</label>
+            <br />
+            <textarea row="50" cols="50">
+            </textarea>
+        </div>
+        <input type="submit" value="Click me to tell me secrets" />
+    </form>
+    <br />
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Location</th>
+        </tr>
+        <tr>
+            <td>Dan</td>
+            <td>23</td>
+            <td>House</td>
+        </tr>
+        <tr>
+            <td>Mary</td>
+            <td>22</td>
+            <td>Castle</td>
+        </tr>
+        <tr>
+            <td>James</td>
+            <td>30</td>
+            <td>Boat</td>
+        </tr>
+    </table>
+</body>
+</html>
